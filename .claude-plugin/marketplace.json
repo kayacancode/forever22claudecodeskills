@@ -1,17 +1,19 @@
 {
   "name": "forever22-claude-code-skills",
-  "description": "Security and productivity skills by Forever22 Studios",
-  "author": "kayacancode",
-  "homepage": "https://github.com/kayacancode/forever22claudecodeskills",
+  "owner": {
+    "name": "Forever22 Studios",
+    "email": "kaya@forever22studios.com"
+  },
+  "metadata": {
+    "description": "Security and productivity skills by Forever22 Studios",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "pentest",
       "description": "ReAct-style web penetration testing — phased recon, vuln scanning, and auto-reporting for authorized targets",
       "version": "1.0.0",
-      "source": {
-        "type": "directory",
-        "path": "plugins/pentest"
-      }
+      "source": "./plugins/pentest"
     }
   ]
 }
