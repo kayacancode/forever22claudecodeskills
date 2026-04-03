@@ -11,9 +11,11 @@
   "plugins": [
     {
       "name": "pentest",
+      "source": "./plugins/pentest",
       "description": "ReAct-style web penetration testing — phased recon, vuln scanning, and auto-reporting for authorized targets",
       "version": "1.0.0",
-      "source": "./plugins/pentest"
+      "keywords": ["security", "pentest", "vulnerability", "recon", "cloudflare", "firebase"],
+      "strict": false
     }
   ]
 }
